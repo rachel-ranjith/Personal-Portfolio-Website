@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Keep the dev badge out of the constellation legend (dev-only; gone in prod).
+  devIndicators: { position: "bottom-right" },
 };
 
 export default nextConfig;
